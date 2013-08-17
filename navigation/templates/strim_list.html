@@ -1,0 +1,20 @@
+<ul class="nav">
+    <li class="first">
+        <a href=" {% url "player.views.index" %}"> Home </a>    
+    </li>
+    <li class="dropdown" dropdown="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Strimy<b class="caret"></b></a> 
+        <ul class="dropdown-menu menu_lelve_1">
+            {% for strim in strims %}
+            <li>
+                <a href="{% url "player.views.strim" slug=strim.slug %}">{{ strim.name }}</a>
+            </li>
+
+                {% empty %}
+                <li> Brak</li>
+                {% endfor %}
+         </ul>
+    </li>
+    <li class="last">Grupy</li>
+</ul>
+

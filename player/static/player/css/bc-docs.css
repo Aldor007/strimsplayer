@@ -1,0 +1,69 @@
+div.songsinfo
+{
+margin-left: 10px;
+
+}
+h2.songtitle
+{
+margin-left: 2px;
+}
+div.content_voting
+{
+float: left;
+margin-right: 8px;
+}
+div.content_inner
+{
+float: left;
+margin-top: 10px;
+}
+span.strimslink
+{
+float: right;
+}
+div.content_vote_wrapper
+{
+background: #f7f7f7;
+display: block;
+text-align: center;
+line-height: 23px;
+height: 22px;
+font-size: 16px;
+font-weight: bold;
+overflow: hidden;
+word-wrap: normal;
+color: rgb(170, 170, 170);
+}
+a.asc
+{
+background: url('../images/sort-ascending-icon.png') no-repeat;
+padding: 5px 5px 5px 25px;
+
+height: 38px;
+
+}
+a.desc
+{
+background: url('../images/sort-descending-icon.png') no-repeat;
+padding: 5px 5px 5px 25px;
+
+height: 38px;
+
+}
+div#liststat
+{
+display: none;
+
+}
+div.ads
+{
+margin-top: 10px;
+}
+div.songid
+{
+display: none;
+}
+div.clear
+{
+clear:both;
+}
