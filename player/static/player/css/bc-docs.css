@@ -1,7 +1,8 @@
 div.songsinfo
 {
 margin-left: 10px;
-
+margin-bottom: 10px;
+height: 100px;
 }
 h2.songtitle
 {
@@ -67,3 +68,4 @@ div.clear
 {
 clear:both;
 }
+
