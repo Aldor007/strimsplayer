@@ -1,2 +1,4 @@
 Nowa wersja
-https://github.com/Aldor007/strimsplayerjs
+
+
+https://github.com/Aldor007/strimsplayer.js
